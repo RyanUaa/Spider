@@ -150,8 +150,54 @@
 
 在所有得HTML中，所有的标签定义的内容都是节点，它们构成了一个HTML DOM树。
 > DOM *Document Object Model* 即文档对象模型
- 
+
+DOM 是 W3C（万维网联盟）的标准。
+
+DOM 定义了访问 HTML 和 XML 文档的标准：
+
+“W3C 文档对象模型 （DOM） 是中立于平台和语言的接口，它允许程序和脚本动态地访问和更新文档的内容、结构和样式。”
+W3C DOM 标准被分为 3 个不同的部分：
+
+- 核心 DOM - 针对任何结构化文档的标准模型
+- XML DOM - 针对 XML 文档的标准模型
+- HTML DOM - 针对 HTML 文档的标准模型
+
+HTML DOM将HTML文档视作树结构，这种结构被称为节点树：
+
 ![](http://www.w3school.com.cn/i/ct_htmltree.gif)
+
+---
+节点树中的节点彼此拥有层级关系。
+
+父（parent）、子（child）和同胞（sibling）等术语用于描述这些关系。父节点拥有子节点。同级的子节点被称为同胞（兄弟或姐妹）。
+
+- 在节点树中，顶端节点被称为根（root）
+- 每个节点都有父节点、除了根（它没有父节点）
+- 一个节点可拥有任意数量的子
+- 同胞是拥有相同父节点的节点
+下面的图片展示了节点树的一部分，以及节点之间的关系：
+
+![](http://www.w3school.com.cn/i/dom_navigate.gif)
+
+从我们上面的 HTML 中：
+
+- <html> 节点没有父节点；它是根节点
+- <head> 和 <body> 的父节点是 <html> 节点
+- 文本节点 "Hello world!" 的父节点是 <p> 节点
+并且：
+
+- <html> 节点拥有两个子节点：<head> 和 <body>
+- <head> 节点拥有一个子节点：<title> 节点
+- <title> 节点也拥有一个子节点：文本节点 "这是title"
+- <h2> 和 <p> 节点是同胞节点，同时也是 <body> 的子节点
+并且：
+
+- <head> 元素是 <html> 元素的首个子节点
+- <body> 元素是 <html> 元素的最后一个子节点
+- <h2> 元素是 <body> 元素的首个子节点
+- <p> 元素是 <body> 元素的最后一个子节点
+
+大家可以去[W3CSCHOOL](http://www.w3school.com.cn/htmldom/dom_nodes.asp)
 
 ### 选择器
 
