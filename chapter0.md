@@ -184,12 +184,14 @@ HTML DOM将HTML文档视作树结构，这种结构被称为节点树：
 - <html> 节点没有父节点；它是根节点
 - <head> 和 <body> 的父节点是 <html> 节点
 - 文本节点 "Hello world!" 的父节点是 <p> 节点
+  
 并且：
 
-- <html> 节点拥有两个子节点：<head> 和 <body>
+- <html> 节点拥有两个子节点：<head> 和 <body>==$0
 - <head> 节点拥有一个子节点：<title> 节点
 - <title> 节点也拥有一个子节点：文本节点 "这是title"
 - <h2> 和 <p> 节点是同胞节点，同时也是 <body> 的子节点
+  
 并且：
 
 - <head> 元素是 <html> 元素的首个子节点
@@ -198,7 +200,7 @@ HTML DOM将HTML文档视作树结构，这种结构被称为节点树：
 - <p> 元素是 <body> 元素的最后一个子节点
 
 大家可以去[W3CSCHOOL](http://www.w3school.com.cn/htmldom/dom_nodes.asp)
-
+学习
 ### 选择器
 
 ## 3. 爬虫
