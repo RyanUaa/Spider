@@ -9,7 +9,7 @@
 
 ---
 ## 1. HTTP
-    先了解HTTP的基本原理，是网络中应用层的一个协议，我们从在浏览器输入URL开始说起。
+    先了解HTTP的基本原理，HTTP是网络中应用层的一个协议，我们从在浏览器输入URL开始说起。
 ### URL URI
 > - URI 全称为*Uniform Resource Identifier*  即**统一资源标志符**
 > - URL 全称为*Uniform Resource Locator*  即**统一资源定位符**
@@ -120,9 +120,25 @@
 
 ### 网页组成
 
-说到网页，就不得不说网页三大部分：`HTML,CSS,JavaScript`。如果把一个网站比喻为一个房间，HTML就是制定了房间的布局，CSS制定了家具的摆放、整体的风格，JavaScript则是规定了主人在里面的生活方式，
+说到网页，就不得不说网页三大部分：`HTML,CSS,JavaScript`。如果把一个网站比喻为一个房间，HTML就是制定了房间的布局，CSS制定了家具的摆放、整体的风格，JavaScript则是规定了在里面的生活方式，
 
 ### 网页的构造
+
+我们来看一个最简单的html页面：
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>这是title<title>
+    </head>
+    <body>
+        <h2>Hello World!</h2>
+        <p class="test">这是段落</p>
+    </body>
+</html>
+```
+只要知道，所有得源代码，都是这样得形式
 
 ### HTML DOM树
 
