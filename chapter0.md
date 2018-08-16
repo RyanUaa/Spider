@@ -127,10 +127,15 @@
 我们来看一个最简单的html页面：
 ```
 <!DOCTYPE html>
+<style>
+    p{
+        color:red;
+    }
+</style>
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>这是title<title>
+        <title>这是title</title>
     </head>
     <body>
         <h2>Hello World!</h2>
@@ -138,9 +143,12 @@
     </body>
 </html>
 ```
-只要知道，所有得源代码，都是这样得形式
+各位不妨把这段代码复制到一个文件中，保存后把文件的后缀名改为`.html`，双击即可看到一个显示Hello World！的简单页面。
+我们可以看到，整个网页就是由许多不同的标签嵌套组合而成的，所有的网页都是这样得形式构建的，再加上CSS修饰（在本例中就是style标签中的部分，大家可以把red改成人以颜色，保存刷新，看看效果），JavaScript实现特定功能（本例没用到，事实上，现在的网页中现在也很少看到原生的js代码，因为js的库把js封装得很好，用JQuery，Bootstrap这些库能更方便更快），一个完整的网页就形成了。
 
 ### HTML DOM树
+
+在所有得HTML中，所有的标签定义的内容都是节点，它们构成了一个HTML DOM树。
 
 ### 选择器
 
