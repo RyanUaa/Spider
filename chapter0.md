@@ -149,15 +149,20 @@
 ### HTML DOM树
 
 在所有得HTML中，所有的标签定义的内容都是节点，它们构成了一个HTML DOM树。
+> DOM *Document Object Model* 即文档对象模型
+ 
+![](http://www.w3school.com.cn/i/ct_htmltree.gif)
 
 ### 选择器
 
 ## 3. 爬虫
+
 ### 概述
 
 ### JavaScript 渲染页面
 
 ## 4. Session 和 Cookies
+
 ### 静态页面和动态页面
 
 ### 无状态HTTP
